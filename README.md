@@ -13,7 +13,7 @@ Repositorio de laboratorios prácticos, reglas de detección, automatización de
 
 | Proyecto | Tecnologías / Herramientas | Mapeo MITRE ATT&CK | Estado |
 | :--- | :--- | :--- | :--- |
-| **[01. Monitoreo Endpoint y Detección SSH](./01-wazuh-soc-monitoring)** | Wazuh (Docker), Ubuntu Server, FIM | `T1110` (Brute Force), `T1078` | 🔄 En progreso |
+| **[01. Monitoreo Endpoint y Detección SSH](./01-wazuh-soc-monitoring)** | Wazuh (Docker), Ubuntu Server, FIM | `T1110` (Brute Force), `T1078` | ✅ Completado |
 | **[02. Triaje Automatizado de Logs](./02-python-log-triage-enrichment)** | Python, Regex, API AbuseIPDB | `T1110`, `T1595` (Active Scanning) | ⏳ Próximo |
 | **[03. Reportes de Análisis de Phishing](./03-phishing-incident-reports)** | LetsDefend, CyberChef, VirusTotal | `T1566` (Phishing) | ⏳ Próximo |
 | **[04. Hardening y Auditoría Linux](./04-linux-hardening-audit)** | Ubuntu/Debian, Lynis, SSH, UFW | Mitigación / Endurecimiento | ⏳ Próximo |
