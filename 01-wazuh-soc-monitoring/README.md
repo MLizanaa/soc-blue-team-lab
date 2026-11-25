@@ -31,7 +31,7 @@ Simulación controlada de intentos fallidos de conexión SSH hacia `127.0.0.1` u
 ### 3. Monitoreo de Integridad de Archivos (FIM / Syscheck)
 Configuración de monitoreo en tiempo real (`realtime="yes"`) sobre el directorio de prueba `/tmp/prueba_fim` y validación de eventos ante creación y modificación de `/tmp/prueba_fim/alerta.txt` (cambio de tamaño de `15` a `22` bytes y actualización de hashes `MD5`, `SHA1` y `SHA256`).
 
-![Alerta FIM](/03-alerta-fim-alerta-txt.png)
+![Alerta FIM](./03-alerta-fim-alerta-txt.png)
 
 ## Lecciones aprendidas y troubleshooting
 - **Resolución DNS interna:** Se verificó la resolución de subdominios `.videovision.cl` mediante `dnsmasq` (`/etc/dnsmasq.conf`) y `/etc/hosts` para exponer `wazuh.videovision.cl` de forma limpia.
